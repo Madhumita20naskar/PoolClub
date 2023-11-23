@@ -1,0 +1,36 @@
+/* button{
+    background-color: #f08804;
+} */
+a{
+    /* padding-right: 150px;
+    margin: 7px; */
+    justify-content: center;
+}
+#shopping:hover{
+    background-color: brown;
+}
+.dropdown-menu{
+    background-color: rgba(77, 182, 178,0.50);
+}
+.video-background{
+    
+    height: 50%;
+    width: 100%;
+}
+.content{
+    text-align: center;
+    top: 10px;
+}
+button{
+    background-color: rgba(252, 252, 18, 0.5);
+    width: 15%;
+    height: 15%;
+}
+.card-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.7em;
+    width: calc(100%/3);
+    
+}

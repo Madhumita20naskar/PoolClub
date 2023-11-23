@@ -1,0 +1,85 @@
+a{
+    /* padding-right: 150px;
+    margin: 7px; */
+    justify-content: center;
+}
+#shopping:hover{
+    background-color: brown;
+}
+.dropdown-menu{
+    background-color: rgba(77, 182, 178,0.50);
+}
+
+.btn-1{
+    height: 60px;
+    width: 100px;
+    background: rgb(119, 178, 245);
+    
+    margin: 24px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    transition: 0.5s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 #1f10c1  inset;
+}
+.btn-1:hover{
+    box-shadow: -100px 0 0 #1f10c1 inset;
+}
+.btn-2{
+    height: 60px;
+    width: 100px;
+    background: rgb(119, 178, 245) ;
+    margin: 20px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px 0px 0 0 #4952d2 inset , 0px 0px 0 #31708f inset;
+}
+.btn-2:hover{
+    box-shadow: 0px 50px 0 0px #4952d2 inset , 0px -50px 0 0px #31708f inset; 
+}
+.btn-3{
+    height: 60px;
+    width: 100px;
+    background:  rgb(119, 178, 245);
+    margin: 20px;
+   
+    box-shadow: 0 0 1px #ccc;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+.btn-3:hover{
+    transform: scale(1.1);
+    background: #282053;
+}
+h1{
+    font-size: 60px;
+    font-weight: 750;
+}
+.btn-4{
+    height: 50px;
+    width: 240px;
+    background: rgb(253, 253, 2);
+    font-size: 15px;
+    margin: 24px;
+    color:#060606;
+    box-shadow: 0 0 1px #050505;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 #259ad9  inset;
+}
+.btn-4:hover{
+    box-shadow: -240px 0 0 #259ad9 inset;
+}
+.card-wrapper{
+    display: flex;
+}
+.card{
+    margin:0 .5em ;
+    margin-top: 0.5em;
+    width: calc(100%/3);
+    height:250px;
+    background-color:cadetblue;
+
+}
